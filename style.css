@@ -1,0 +1,50 @@
+body {
+    background-image: url("./img/Qorli platformadagi olovsoch samuray.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    margin-top:50px;
+    margin-bottom:50px;
+    color: #b83212;
+    text-shadow:1px 2px 3px #FFD18A;
+}
+h2{
+    font-size: 50px;
+    margin-top:0;
+    margin-bottom:20px;
+    color:#b83212;
+    text-shadow:#FFD18A 1px 2px 3px;
+}
+button{
+    border:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    font-weight:bold;
+    width:200px;
+    margin-bottom:5px;
+    border-radius:5px;
+
+}
+#increment-btn{
+    background:darkred;
+
+}
+#save-btn{
+    background:darkgreen;
+}
+#increment-btn {
+    background: linear-gradient(135deg, #8B0000, #E25822, #FF8C00);
+    color: white;
+    border: 2px solid #FFD18A;
+    border-radius: 10px;
+    cursor: pointer;
+}
